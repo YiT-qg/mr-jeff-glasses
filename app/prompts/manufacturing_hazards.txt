@@ -1,0 +1,1 @@
+List only hazards you can see in this frame from this set: missing eye protection, missing hard hat, person inside a marked keep-out zone, spill or blocked walkway, removed machine guard. Return JSON {hazards: [{type, where, confidence}]}. Return an empty list if none are clearly visible. These alerts are advisory.

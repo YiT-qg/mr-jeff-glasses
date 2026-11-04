@@ -1,0 +1,1 @@
+{"key": "62311f3420d3e0422f1bc1ae3e5d72cef6e1c5faf69850da760103ece5194215", "model": "muse-spark-1.3", "recorded_at": 1793766853.550956, "value": {"data": {"hazards": []}, "usage": {"completion_tokens": 475, "prompt_tokens": 654, "total_tokens": 1129, "completion_tokens_details": {"reasoning_tokens": 460}, "prompt_tokens_details": {"cached_tokens": 0}}}}

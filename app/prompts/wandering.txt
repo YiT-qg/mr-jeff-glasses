@@ -1,0 +1,1 @@
+Name the landmark, place, or object at the center of this frame in one line. If the wearer set a destination (given below) and it is not "(none)", give a one-line walking direction from the mock location to it; otherwise leave direction empty. Return JSON {place: string, direction: string}.

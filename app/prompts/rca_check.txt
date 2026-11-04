@@ -1,0 +1,1 @@
+Suspected cause: {cause}. The technician performed this check: '{check}'. Does the visible physical evidence in this frame support the suspected cause (confirmed), refute it (ruled_out), or is it inconclusive (unclear)? Return JSON {result: confirmed|ruled_out|unclear, evidence}.

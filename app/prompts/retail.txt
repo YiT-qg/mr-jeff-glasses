@@ -1,0 +1,1 @@
+Identify the product at the center of this frame. Read any shelf label verbatim for its name and price; if no price is visible, estimate a fair price in USD. Then choose up to 2 cheaper alternatives ONLY from the catalog below (exact names). Return JSON {product: name of the seen product, price_guess: number, alternatives: [{product: catalog name, price: catalog price}]}.

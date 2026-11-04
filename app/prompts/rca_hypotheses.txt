@@ -1,0 +1,1 @@
+Given the symptom and this machine's work-order history, propose at most 3 root-cause hypotheses ranked by likelihood. Each must cite the specific history fact that supports it. For each, give one visual or physical check a technician can do in under 2 minutes. Return JSON {hypotheses: [{cause, reason_from_history, check}]}.
