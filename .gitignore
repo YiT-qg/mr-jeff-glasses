@@ -3,6 +3,7 @@
 __pycache__/
 *.pyc
 .DS_Store
-traces/*.jsonl
+traces/
+data/clips/*.raw.mp4
 data/work_orders.jsonl
 data/clips/local/

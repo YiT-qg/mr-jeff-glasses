@@ -46,6 +46,12 @@ ws.onmessage=e=>{ const m=JSON.parse(e.data);
   else if(m.type==='card'){ history.push(m.card); if(!showingHistory) show(m.card); } };
 ws.onclose=()=>{ title.textContent='Disconnected — restart run_clip.py'; };
 
+if(new URLSearchParams(location.search).has('bare')){
+  document.body.style.padding='0';
+  for(const id of ['hint','hist','flash']) document.getElementById(id).style.display='none';
+  document.getElementById('lens').style.border='none';
+  document.getElementById('lens').style.borderRadius='0';
+}
 document.addEventListener('keydown',e=>{
   if(e.code==='Space'){ e.preventDefault();
     fetch('/pinch',{method:'POST',headers:{'Content-Type':'application/json'},

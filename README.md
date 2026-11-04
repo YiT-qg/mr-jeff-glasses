@@ -78,7 +78,8 @@ the judges' no-key run), `MRJEFF_NO_CACHE=1` (force live).
   no segmentation payload for plain prompts (see `scripts/PROBE_NOTES.md`).
 - Mr. Jeff: POSTs to `MRJEFF_API_URL` when set, else `data/work_orders.jsonl`.
 - Footage: all synthetic — generated stills (labeled SIMULATED) and drawn
-  scenes. No licensed clips, no real workplace footage.
+  scenes. No licensed clips, no real workplace footage. Redistribution policy
+  for real clips: [`docs/FOOTAGE.md`](docs/FOOTAGE.md).
 
 ## Layout
 
@@ -89,6 +90,7 @@ the judges' no-key run), `MRJEFF_NO_CACHE=1` (force live).
 - `data/` — assets.json, manuals/, products.json, prices.json, stills/,
   clips/, cache/ (committed recordings)
 - `traces/` — JSONL per run (gitignored)
+- `docs/` — original build prompt + footage policy/credits
 
 ## Budget
 
